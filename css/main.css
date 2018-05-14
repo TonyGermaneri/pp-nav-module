@@ -1,3 +1,6 @@
 .pp-nav-logo {
     width: 200px;
 }
+ul {
+    background: var(--pp-nav-background, tan);
+}
