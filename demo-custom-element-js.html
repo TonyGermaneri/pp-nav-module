@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8"/>
         <!-- load webcomponent shims -->
-        <script src="/vendor/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+        <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
         <!-- load sample component -->
-        <script type="module" src="main.js"></script>
+        <script type="module" src="lib/main.js"></script>
         <script>
             document.addEventListener("WebComponentsReady", function componentsReady() {
                 var nav = document.createElement('pp-nav');

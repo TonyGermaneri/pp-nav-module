@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/TonyGermaneri/pp-nav-module/issues"
   },
-  "homepage": "https://github.com/TonyGermaneri/pp-nav-module#readme"
+  "homepage": "https://github.com/TonyGermaneri/pp-nav-module#readme",
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0"
+  }
 }
