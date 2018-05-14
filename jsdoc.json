@@ -1,0 +1,14 @@
+{
+    "recurseDepth": 10,
+    "recurse": true,
+    "source": {
+        "include": [
+            "./lib"
+        ],
+        "includePattern": ".+\\.js(doc|x)?$"
+    },
+    "templates": {
+        "theme": "simplex",
+        "syntaxTheme": "dark"
+    }
+}
