@@ -1,0 +1,22 @@
+{
+  "name": "pp-nav-module",
+  "version": "1.0.0",
+  "description": "example navigation web component",
+  "main": "./lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyGermaneri/pp-nav-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyGermaneri/pp-nav-module/issues"
+  },
+  "homepage": "https://github.com/TonyGermaneri/pp-nav-module#readme"
+}
