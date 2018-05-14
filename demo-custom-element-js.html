@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <!-- load webcomponent shims -->
+        <script src="/vendor/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+        <!-- load sample component -->
+        <script type="module" src="main.js"></script>
+        <script>
+            document.addEventListener("WebComponentsReady", function componentsReady() {
+                var nav = document.createElement('pp-nav');
+                nav.base = '/';
+                nav.data = [
+                    {
+                        "title": "Link 1",
+                        "url": "/#1"
+                    },
+                    {
+                        "title": "Link 2",
+                        "url": "/#2"
+                    },
+                    {
+                        "title": "Link 3",
+                        "url": "/#3"
+                    },
+                    {
+                        "title": "Link 4",
+                        "url": "/#4"
+                    }
+                ];
+                document.body.appendChild(nav);
+            });
+        </script>
+    </head>
+    <body><pp-nav></pp-nav></body>
+</html>
